@@ -23,11 +23,14 @@ public final class R {
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
+        public static final int lukashenko=0x7f020002;
     }
     public static final class id {
-        public static final int action_search=0x7f080002;
-        public static final int action_settings=0x7f080001;
-        public static final int edit_message=0x7f080000;
+        public static final int action_search=0x7f080004;
+        public static final int action_settings=0x7f080003;
+        public static final int displayMessage=0x7f080000;
+        public static final int edit_message=0x7f080002;
+        public static final int imageView1=0x7f080001;
     }
     public static final class layout {
         public static final int activity_display_message=0x7f030000;
@@ -44,6 +47,7 @@ public final class R {
         public static final int button_send=0x7f050004;
         public static final int edit_message=0x7f050003;
         public static final int hello_world=0x7f050002;
+        public static final int lukashenko_image=0x7f050007;
         public static final int title_activity_display_message=0x7f050005;
     }
     public static final class style {

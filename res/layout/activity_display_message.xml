@@ -9,8 +9,18 @@
     tools:context=".DisplayMessageActivity" >
 
     <TextView
+        android:id="@+id/displayMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignLeft="@+id/displayMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/lukashenko"
+        android:contentDescription="@string/lukashenko_image" />
 
 </RelativeLayout>
